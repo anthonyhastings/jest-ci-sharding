@@ -1,0 +1,15 @@
+{
+  "name": "jest-ci-sharding",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demonstrating sharding in CI to split a test suite across many jobs",
+  "repository": "git@github.com:anthonyhastings/jest-ci-sharding.git",
+  "author": "Anthony Hastings <ar.hastings@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
+}
